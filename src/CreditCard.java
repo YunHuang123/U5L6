@@ -40,7 +40,7 @@ public class CreditCard
     }
 
     /** Checks to see if toCheckPIN matches personalPIN exactly;
-     *  if so, return true, if not, return false.
+     *  if so, return true, if not, return false
      *
      *  @param toCheckPIN  The PIN to compare with personalPIN
      *
