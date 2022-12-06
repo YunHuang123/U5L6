@@ -48,13 +48,13 @@ public class CreditCard
      */
     public boolean checkPIN(String toCheckPIN)
     {
-        if (personalPIN.indexOf(toCheckPIN) != -1)
+        if (personalPIN.equals(toCheckPIN))
         {
-            return false;
+            return true;
         }
         else
         {
-            return true;
+            return false;
         }
     }
 
